@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FitTrack</string>
+    <string name="today">Today</string>
+    <string name="activity">Activity</string>
+    <string name="food">Food</string>
+    <string name="sleep">Sleep</string>
+    <string name="goals">Goals</string>
+</resources>

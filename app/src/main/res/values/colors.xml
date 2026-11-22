@@ -1,0 +1,9 @@
+<resources>
+    <color name="fit_primary">#176B4D</color>
+    <color name="fit_on_primary">#FFFFFF</color>
+    <color name="fit_primary_container">#C5F2DA</color>
+    <color name="fit_on_primary_container">#002113</color>
+    <color name="fit_background">#F7FBF7</color>
+    <color name="fit_on_background">#18221D</color>
+    <color name="fit_surface">#FFFFFF</color>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Set your goals" android:textStyle="bold"
+            android:textAppearance="?attr/textAppearanceHeadlineMedium" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="These targets stay on your device after you close the app."
+            android:layout_marginBottom="20dp" android:layout_marginTop="8dp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Daily food calories (kcal)" android:layout_marginBottom="12dp">
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/goalCalories"
+                android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Daily active minutes" android:layout_marginBottom="12dp">
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/goalActivity"
+                android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Target sleep hours" android:layout_marginBottom="12dp">
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/goalSleep"
+                android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Daily water (ml)" android:layout_marginBottom="12dp">
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/goalWater"
+                android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.button.MaterialButton android:id="@+id/saveGoals"
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Save goals" />
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/darkMode" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:text="Dark mode" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:textAppearance="?attr/textAppearanceBodySmall"
+            android:text="No account or cloud connection is needed. Your logs are stored locally in Room." />
+    </LinearLayout>
+</ScrollView>
